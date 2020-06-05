@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CardPlace"/>
+
+    <style name="CardPlace.ViewSize">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="CardPlace.Text" parent="CardPlace.ViewSize">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CardPlace.Label" parent="CardPlace.Text">
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/lightBlack</item>
+    </style>
+    <style name="CardPlace.LabelProvenance" parent="CardPlace.Text">
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/lightSilver</item>
+    </style>
+
+    <style name="CardPlace.BrandLabel" parent="CardPlace.Label">
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+    <!--SolOut -->
+    <style name="CardPlace.TextSoldOut" parent="CardPlace.ViewSize">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/gray_4</item>
+    </style>
+
+    <style name="CardPlace.LabelSoldOut" parent="CardPlace.Text">
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/gray_4</item>
+    </style>
+
+    <style name="CardPlace.BrandLabelSoldOut" parent="CardPlace.LabelSoldOut">
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+    <style name="CardPlace.ValueSoldOut" parent="CardPlace.TextSoldOut">
+        <item name="android:layout_height">17dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CardPlace.BrandValueSoldOut" parent="CardPlace.TextSoldOut">
+        <item name="android:layout_height">34dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">top</item>
+        <item name="android:minLines">2</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textColor">@color/gray_4</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--SolOut -->
+    <style name="CardPlace.Value" parent="CardPlace.Text">
+        <item name="android:layout_height">17dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CardPlace.BrandValue" parent="CardPlace.Text">
+        <item name="android:layout_height">34dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">top</item>
+        <item name="android:minLines">2</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CardPlace.Buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="CardPlace.Text.Tag" parent="FontLatoBold">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

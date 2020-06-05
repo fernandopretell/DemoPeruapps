@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="backgroundColor">@color/color_back_activities</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_black_24dp</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPeruApps1</item>
+    </style>
+
+    <style name="OverFlow" parent="@style/Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_dots</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextViewTitleStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="AppTextViewTitleStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textSize">@dimen/font_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="AppTextViewSubTitleStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textSize">@dimen/font_subTitle</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="AppTheme.Toolbar.Title" parent="AppTheme">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:title">@string/app_name</item>
+    </style>
+
+    <style name="AppTheme.Toolbar.picker.images" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:color">@color/color_white</item>
+    </style>
+
+    <style name="NameUserCardFeriaStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/font_name_card_feria</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+    </style>
+
+    <style name="NameProductCardFeriaStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/color_gris_oscuro</item>
+        <item name="android:textSize">@dimen/font_name_product_card_feria</item>
+    </style>
+
+    <style name="PriceProductCardFeriaStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/color_verde_secundario</item>
+        <item name="android:textSize">@dimen/font_name_product_card_feria</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

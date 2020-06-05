@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DemoPeruapps</string>
+    <string name="copy_loading">Cargando..</string>
+    <string name="ahora_solo_verificaremos_que_este_dispositivo_sea_tuyo">Ahora solo verificaremos que este dispositivo sea tuyo.</string>
+    <string name="te_hemos_enviado_un_sms_con_un_c_digo_de_seguridad">Te hemos enviado un SMS con un codigo de seguridad.</string>
+    <string name="bienvenida">Bienvenida la prueba de PeruApps</string>
+    <string name="solo_necesitamos_un_n_mero_celular_para_empezar">Solo necestamos un número de celular para empezar</string>
+    <string name="placeholder_producto">Placeholder producto</string>
+    <string name="placeholder_usuario">placeholder usuario</string>
+    <string name="no_hay_publicaciones_s_el_primero">No hay posts, se el primero..!</string>
+    <string name="subir_o_tomar_foto">Subir o tomar foto</string>
+    <string name="selecciona_las_imagenes_para_la_publicaci_n">Selecciona las imagenes para el post.</string>
+    <string name="descripci_n_de_lugar">Descripción de lugar</string>
+    <string name="nombre_usuario">Nombre usuario</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="t_tulo_lugar">Título lugar</string>
+</resources>

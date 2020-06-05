@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="card_place_button_add">Agregar</string>
+    <string name="card_place_button_select">Elegir opción</string>
+    <string name="card_place_button_show_offer">Ver oferta</string>
+    <string name="card_place_button_soldout">Agotado</string>
+    <string name="card_place_label_timer">Termina en</string>
+    <string name="card_place_label_brand">Marca</string>
+    <string name="card_place_label_you">Para ti</string>
+    <string name="card_place_label_client">Para tu cliente</string>
+    <string name="card_place_description_brand">Nombre de producto</string>
+    <string name="card_place_description_you">00.00</string>
+    <string name="card_place_description_client">00.00</string>
+    <string name="card_place_label_added"></string>
+    <string name="card_place_label_choose">Elegido</string>
+
+</resources>

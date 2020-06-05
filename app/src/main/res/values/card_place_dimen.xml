@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="card_place_default_value_brand_height">34dp</dimen>
+    <dimen name="card_place_default_button_height">40dp</dimen>
+    <dimen name="card_place_default_buttons_margin">20dp</dimen>
+    <dimen name="card_place_default_button_margin">8dp</dimen>
+    <dimen name="card_place_default_button_margin_bottom">16dp</dimen>
+    <dimen name="card_place_default_button_border_soldOut">12dp</dimen>
+    <dimen name="card_place_default_button_width_soldOut">96dp</dimen>
+    <dimen name="card_place_default_container_width">152dp</dimen>
+    <dimen name="card_place_default_container_width2">330dp</dimen>
+    <dimen name="card_place_default_container_height">348dp</dimen>
+    <dimen name="card_place_default_desc_size">14sp</dimen>
+    <dimen name="card_place_default_image_height">88dp</dimen>
+    <dimen name="card_place_default_image_launch_width">100dp</dimen>
+    <dimen name="card_place_default_image_launch_height">100dp</dimen>
+    <dimen name="card_place_default_image_margin_top">8dp</dimen>
+    <dimen name="card_place_default_image_launch_margin_top">32dp</dimen>
+    <dimen name="card_place_default_image_launch_margin_bottom">4dp</dimen>
+    <dimen name="card_place_default_label_size">12sp</dimen>
+    <dimen name="card_place_default_label_margin">8dp</dimen>
+    <dimen name="card_place_default_label_brand_margin">4dp</dimen>
+    <dimen name="card_place_default_margin">2dp</dimen>
+    <dimen name="card_place_default_padding">8dp</dimen>
+    <dimen name="card_place_default_radius">4dp</dimen>
+    <dimen name="card_place_default_tag_height">20dp</dimen>
+    <dimen name="card_place_default_elevation">2dp</dimen>
+    <dimen name="card_place_promotion_container_height">360dp</dimen>
+    <dimen name="card_place_promotion_card_height">350dp</dimen>
+    <dimen name="card_place_promotion_card_multi_height">348dp</dimen>
+    <dimen name="card_place_promotion_card_multi_width">152dp</dimen>
+    <dimen name="card_place_promotion_card_imgplus_height">30dp</dimen>
+    <dimen name="card_place_promotion_card_imgplus_width">30dp</dimen>
+    <dimen name="card_place_promotion_card_imgplus_margintop">45dp</dimen>
+    <dimen name="card_place_promotion_card_button_width">310dp</dimen>
+    <dimen name="card_place_promotion_card_button_marginBottom">20dp</dimen>
+</resources>

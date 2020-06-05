@@ -1,0 +1,106 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.3.71'
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+        maven { url "https://jitpack.io" }
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.6.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.3'
+        classpath 'io.fabric.tools:gradle:1.31.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+        
+    }
+}
+
+ext {
+
+    compileSdkVersion = 29
+    buildToolsVersion = '29.0.3'
+    minSdkVersion = 21
+    targetSdkVersion = 29
+    supportLibVersion = "28.0.0"
+    kotlin_version = '1.3.61'
+    daggerVersion = '2.27'
+    rxJavaVersion = '2.2.9'
+    firebaseCoreVersion = '17.3.0'
+    firebaseDatabaseVersion = '19.2.1'
+    firebaseMessagingVersion = '20.1.5'
+    firebaseAuthVersion = '19.3.0'
+    firebaseStorageVersion = '19.1.1'
+    firebaseConfigVersion = '19.1.4'
+    firebaseFirestoreVersion = '21.4.3'
+    appCompatVersion = '1.1.0'
+    supportVersion = '1.2.0-alpha06'
+    dynamicanimation = '1.0.0'
+    ktxVersion = '1.2.0'
+    constraintLayoutVersion = '2.0.0-beta4'
+    facebookVersion = '6.3.0'
+    yearClassVersion = '2.1.0'
+    retrofitVersion = '2.6.0'
+    okhttpVersion = '3.9.1'
+    archVersion = '2.0.0-alpha1'
+    roomVersion = '2.2.5'
+    multidexVersion = '2.0.0'
+    glideVersion = '4.11.0'
+    zendeskSdkVersion = '2.3.0'
+    amplitudeSdkVersion = '2.13.3'
+    threetenabpVersion = '1.2.3'
+    googleMapsVersion = '16.0.0'
+    androidMapUtilsVersion = '1.0.2'
+    appsflyerSdkVersion = '4.3.7'
+    brazeVersion = '7.0.+'
+    branchSdkVersion = '1.5.5'
+    crashlyticsVersion = '2.10.1@aar'
+    stethoVersion = '1.5.1'
+    siftScienceVersion = '0.10.5'
+    securePreferencesVersion = '0.1.7'
+    jUnitVersion = '4.12'
+    mockitoVersion = '2.23.0'
+    hamcrestVersion = '2.2'
+    mockitoKotlinVersion = '1.5.0'
+    airbnbLottieVersion = '3.4.0'
+    googlePayVersion = '18.0.0'
+    daggerAndroidVersion = '2.27'
+    rxAndroidVersion = '2.1.1'
+    threetenabpOrgVersion = '1.4.3'
+    gsonVersion = '2.8.5'
+    googleBaseVersion = '17.2.1'
+    mockitoKotlin2Version = '2.0.0-alpha01'
+    ioMockkKotlin12Version = '1.8.13'
+    pagingVersion = '2.0.0'
+    legacyVersion = '1.0.0-alpha1'
+    cardviewVersion = '1.0.0'
+    recyclerviewVersion = '1.1.0'
+    googleLocationVersion = '17.0.0'
+    rxKotlin = '2.4.0'
+    googlePlacesVersion = '15.0.0'
+    mockwebserverVersion = '1.2.1'
+    rxrelay2 = '2.1.1'
+    navigationVersion = '2.3.0-alpha02'
+    assertJVersion = '3.15.0'
+    picassoVersion = '2.71828'
+    picassoDownloaderVersion = '1.1.0'
+    timberVersion = '4.7.1'
+    workManagerVersion = '2.3.4'
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

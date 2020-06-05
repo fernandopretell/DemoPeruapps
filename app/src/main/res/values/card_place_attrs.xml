@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CardPlace">
+        <!--<attr name="card_publicacion_feria_card_color" format="color"/>
+        <attr name="card_publicacion_feria_card_corner" format="dimension"/>
+        <attr name="card_publicacion_feria_description_bold" format="boolean"/>
+        <attr name="card_publicacion_feria_description_color" format="color"/>
+        <attr name="card_publicacion_feria_description_size" format="dimension"/>
+        <attr name="card_publicacion_feria_label_bold" format="boolean"/>
+        <attr name="card_publicacion_feria_label_color" format="color"/>
+        <attr name="card_publicacion_feria_label_size" format="dimension"/>
+        <attr name="card_publicacion_feria_placeholder_product" format="reference"/>
+        <attr name="card_publicacion_feria_placeholder_user" format="reference"/>-->
+    </declare-styleable>
+
+</resources>

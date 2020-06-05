@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000330</color>
+    <color name="colorPrimaryDark">#000330</color>
+    <color name="colorAccent">#ff042f</color>
+
+    <color name="colorPeruApps1">#000330</color>
+    <color name="colorPeruApps2">#ff042f</color>
+
+    <!--<color name="backFragmentsActivities">#E5E5E5</color>-->
+    <color name="color_azul_oscuro">#495767</color>
+    <color name="color_azul_claro">#4267B2</color>
+    <color name="color_amarillo">#FCDF2B</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_text">#495767</color>
+    <color name="color_text_secundary">#C5C5C5</color>
+    <color name="white_alpha">#BBFFFFFF</color>
+    <color name="color_stroke_editext">#DADADC</color>
+    <color name="color_precio_card_product_feria">#FF8000</color>
+    <color name="color_icon_gray">#DADADA</color>
+    <!--<color name="color_back_activities">#FAF9F9</color>-->
+    <!--<color name="color_back_activities">#E5E5E5</color>-->
+    <color name="color_back_activities">#f6f4f5</color>
+    <color name="color_azul">#4267B2</color>
+    <color name="color_gris_claro">#979797</color>
+    <color name="color_gris_oscuro">#495767</color>
+    <color name="color_verde_secundario">#008080</color>
+    <color name="color_back_product_card_feria">#faf9f9</color>
+
+</resources>

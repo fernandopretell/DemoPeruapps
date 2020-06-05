@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_medium">10dp</dimen>
+
+    <dimen name="font_title">20sp</dimen>
+    <dimen name="font_subTitle">12sp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="font_name_card_feria">14sp</dimen>
+    <dimen name="font_name_product_card_feria">16sp</dimen>
+    <dimen name="font_price_product_card_feria">18sp</dimen>
+
+</resources>

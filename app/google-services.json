@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "189704097958",
+    "firebase_url": "https://fir-peruapps.firebaseio.com",
+    "project_id": "fir-peruapps",
+    "storage_bucket": "fir-peruapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189704097958:android:00767547f5cd6b8307a467",
+        "android_client_info": {
+          "package_name": "com.fpretell.demoperuapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189704097958-2kh6rnldr4b8o5fvbt92r8fmvg53ku7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fpretell.demoperuapps",
+            "certificate_hash": "343b4b44fdc5447f780047f3a363dce21bc7118d"
+          }
+        },
+        {
+          "client_id": "189704097958-q4sqasljkj0g4v1pha9cbsv2m3i24nt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSWEl6lvZa9eiT0kDl5sSrulFsFEclhWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189704097958-q4sqasljkj0g4v1pha9cbsv2m3i24nt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
